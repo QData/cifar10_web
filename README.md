@@ -9,7 +9,7 @@ Load CIFAR-10 from user-specified directory (default /home/USER/data/cifar10 or 
 ### Usage
 
 ```
-from cifar10_webimport cifar10
+from cifar10_web import cifar10
 
 train_images, train_labels, test_images, test_labels = cifar10(path=None)
 ```

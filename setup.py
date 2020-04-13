@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cifar10_web", 
-    version="0.0.3",
+    version="0.0.4",
     author="QData",
     author_email="jm8wx@virginia.edu",
     description="A package for obtaining data from CIFAR10",
