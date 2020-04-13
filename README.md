@@ -4,12 +4,12 @@ Load CIFAR-10 from user-specified directory (default /home/USER/data/cifar10 or 
 
 ### Install
 
-```pip install cifar10_downloader```
+```pip install cifar10_web```
 
 ### Usage
 
 ```
-from cifar10_downloader import cifar10
+from cifar10_webimport cifar10
 
 train_images, train_labels, test_images, test_labels = cifar10(path=None)
 ```
